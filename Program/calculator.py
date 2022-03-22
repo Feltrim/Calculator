@@ -1,4 +1,4 @@
-from lib.dados import *
+from lib.operations import *
 
 header('Python Calculator')
 
