@@ -1,4 +1,4 @@
-# Calculator
+# Python Calculator
 
 Hello!
 
