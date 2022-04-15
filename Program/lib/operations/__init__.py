@@ -34,7 +34,7 @@ def sqrtt(a=0):
     if res.is_integer():
         return header(f'\033[1;33m√{a}\033[m = \033[1;34m{res:.0f}\033[m')
     else:
-        return header(f'\033[1;33m√{a}\033[m = \033[1;34m{res:.5f}\033[m')
+        return header(f'\033[1;33m√{a}\033[m = \033[1;34m{res}\033[m')
 
 def fac(a):
     res = factorial(a)
