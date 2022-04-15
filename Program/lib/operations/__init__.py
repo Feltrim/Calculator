@@ -1,4 +1,3 @@
-from pure_eval import is_expression_interesting
 from lib.interface import *
 from math import factorial, sqrt
 
