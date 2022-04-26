@@ -32,6 +32,7 @@ while True:
             sleep(1.5)
             header('''Thanks for using my program!!
 Developed by:\033[1;96m Feltrim\033[m''')
+            sleep(5)
             break
         else:
             print('\033[31mPlease, select a valid option.\033[m')
@@ -41,6 +42,7 @@ Developed by:\033[1;96m Feltrim\033[m''')
         sleep(1.5)
         header('''Thanks for using my program!!
 Developed by:\033[1;96m Feltrim\033[m''')
+        sleep(5)
         break
     else:
         print('\033[31mPlease, select a valid option.\033[m')
