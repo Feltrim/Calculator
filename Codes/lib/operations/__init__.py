@@ -1,4 +1,3 @@
-from zmq import Again
 from lib.interface import *
 from math import factorial, sqrt
 
@@ -22,17 +21,10 @@ def div(a=0, b=0):
     try:
         res = a / b
     except ZeroDivisionError:
-        while True:
+        while b == 0:
             print('\033[31mERROR: A number can not be divided by 0 (zero).\033[m')
             b = read_int(f'>>>>> {a} ÷ ')
-            if b == 0:
-                continue
-            else:
-                res = a / b
-                if res.is_integer():
-                    return header(f'>>>>> \033[1;33m{a} ÷ {b}\033[m = \033[1;34m{res:.0f}\033[m')
-                else:
-                    return header(f'>>>>> \033[1;33m{a} ÷ {b}\033[m = \033[1;34m{res}\033[m')
+        res = a / b
     finally:
         if res.is_integer():
             return header(f'>>>>> \033[1;33m{a} ÷ {b}\033[m = \033[1;34m{res:.0f}\033[m')
