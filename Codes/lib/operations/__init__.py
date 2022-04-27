@@ -33,7 +33,11 @@ def div(a=0, b=0):
                     return header(f'>>>>> \033[1;33m{a} ÷ {b}\033[m = \033[1;34m{res:.0f}\033[m')
                 else:
                     return header(f'>>>>> \033[1;33m{a} ÷ {b}\033[m = \033[1;34m{res}\033[m')
-
+    finally:
+        if res.is_integer():
+            return header(f'>>>>> \033[1;33m{a} ÷ {b}\033[m = \033[1;34m{res:.0f}\033[m')
+        else:
+            return header(f'>>>>> \033[1;33m{a} ÷ {b}\033[m = \033[1;34m{res}\033[m')
 
 def exp(a=0, b=0):
     res = a ** b
