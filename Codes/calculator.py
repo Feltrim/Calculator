@@ -1,4 +1,4 @@
-from lib.operations import *
+from Codes.lib.operations import *
 from time import sleep
 
 header('Python Calculator')
@@ -24,7 +24,7 @@ while True:
             n2 = read_int(f'>>>>> {n1}^')
             exp(n1, n2)
         elif opt2 == 2:
-            sqrtt(n1)
+            square_root(n1)
         elif opt2 == 3:
             fac(n1)
         elif opt2 == 4:
