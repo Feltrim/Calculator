@@ -9,16 +9,37 @@ from time import sleep
 # Interface functions:
 
 def line(size=42):
+    """_summary_
+
+    Args:
+        size (int, optional): Defaults to 42.
+
+    Returns:
+        _type_: _Return '-'_
+    """
     return '-' * size
 
 
 def header(txt):
+    """_summary_
+
+    Args:
+        txt (_type_): _txt = text provided to create headers_
+    """
     print(line())
     print(txt.center(42))
     print(line())
 
 
 def read_int(msg):
+    """_summary_
+
+    Args:
+        msg (_type_): _msg = integer number_
+
+    Returns:
+        _type_: _if n == int, return n_
+    """
     while True:
         try:
             n = int(input(msg))
@@ -33,6 +54,14 @@ def read_int(msg):
 
 
 def menu(options):
+    """_summary_
+
+    Args:
+        options (_type_): options = text provided to create a menu with options_
+
+    Returns:
+        _type_: _a menu with all the options provided during coding_
+    """
     header('Select the operation')
     c = 1
     for item in options:
@@ -44,7 +73,6 @@ def menu(options):
 
 
 # Operations functions:
-
 
 def add(a=0, b=0):
     res = a + b
