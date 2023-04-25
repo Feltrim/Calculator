@@ -75,21 +75,57 @@ def menu(options):
 # Operations functions:
 
 def add(a=0, b=0):
+    """_summary_
+
+    Args:
+        a (int, optional): _description_. Defaults to 0.
+        b (int, optional): _description_. Defaults to 0.
+
+    Returns:
+        _type_: _description_
+    """
     res = a + b
     return header(f'>>>>> \033[1;33m{a} + {b}\033[m = \033[1;34m{res}\033[m')
 
 
 def sub(a=0, b=0):
+    """_summary_
+
+    Args:
+        a (int, optional): _description_. Defaults to 0.
+        b (int, optional): _description_. Defaults to 0.
+
+    Returns:
+        _type_: _description_
+    """
     res = a - b
     return header(f'>>>>> \033[1;33m{a} - {b}\033[m = \033[1;34m{res}\033[m')
 
 
 def mult(a=0, b=0):
+    """_summary_
+
+    Args:
+        a (int, optional): _description_. Defaults to 0.
+        b (int, optional): _description_. Defaults to 0.
+
+    Returns:
+        _type_: _description_
+    """
     res = a * b
     return header(f'>>>>> \033[1;33m{a} x {b}\033[m = \033[1;34m{res}\033[m')
 
 
 def div(a=0, b=0):
+    """_summary_
+
+    Args:
+        a (int, optional): _description_. Defaults to 0.
+        b (int, optional): _description_. Defaults to 0.
+
+    Returns:
+        _type_: _description_
+    """
     try:
         res = a / b
 
@@ -111,11 +147,28 @@ def div(a=0, b=0):
 
 
 def exp(a=0, b=0):
+    """_summary_
+
+    Args:
+        a (int, optional): _description_. Defaults to 0.
+        b (int, optional): _description_. Defaults to 0.
+
+    Returns:
+        _type_: _description_
+    """
     res = a ** b
     return header(f'>>>>> \033[1;33m{a}^{b}\033[m = \033[1;34m{res}\033[m')
 
 
 def square_root(a=0):
+    """_summary_
+
+    Args:
+        a (int, optional): _description_. Defaults to 0.
+
+    Returns:
+        _type_: _description_
+    """
     res = sqrt(a)
     if res.is_integer():
         return header(f'>>>>> \033[1;33m√{a}\033[m = \033[1;34m{res:.0f}\033[m')
@@ -124,6 +177,14 @@ def square_root(a=0):
 
 
 def fac(a):
+    """_summary_
+
+    Args:
+        a (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
     res = factorial(a)
     return header(f'>>>>> \033[1;33m{a}!\033[m = \033[1;34m{res}\033[m')
 
