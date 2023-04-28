@@ -1,5 +1,13 @@
+# This Python file has the main code with soma particular libraries to make it clean.
+# Made by: Feltrim
+# Instagram: instagram.com/vfeltrim_
+
+# Libraries
+
 from code_with_libraries.lib.operations import *
 from time import sleep
+
+# Main code, where we put all the functions together
 
 header('Python Calculator')
 
