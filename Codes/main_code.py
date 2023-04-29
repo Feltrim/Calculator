@@ -191,7 +191,7 @@ def fac(a=0):
     return header(f'>>>>> \033[1;33m{a}!\033[m = \033[1;34m{res}\033[m')
 
 
-# Main code, where we put all the functions together
+# Main code, where we put all the functions together:
 
 header('Python Calculator')
 
