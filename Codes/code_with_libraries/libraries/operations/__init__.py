@@ -1,4 +1,4 @@
-from code_with_libraries.lib.interface import *
+from code_with_libraries.libraries.interface import *
 from math import factorial, sqrt
 
 
