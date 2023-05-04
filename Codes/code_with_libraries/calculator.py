@@ -4,7 +4,7 @@
 
 # Libraries
 
-from code_with_libraries.lib.operations import *
+from code_with_libraries.libraries.operations import *
 from time import sleep
 
 # Main code, where we put all the functions together
