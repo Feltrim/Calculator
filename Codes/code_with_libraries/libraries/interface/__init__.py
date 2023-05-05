@@ -1,3 +1,10 @@
+# This Python file has all the interface functions.
+# Made by: Feltrim
+# Instagram: instagram.com/vfeltrim_
+
+# Interface functions:
+
+
 def line(size=42):
     return '-' * size
 
