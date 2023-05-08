@@ -1,3 +1,7 @@
+# This Python file has all the operations functions.
+# Made by: Feltrim
+# Instagram: instagram.com/vfeltrim_
+
 from code_with_libraries.libraries.interface import *
 from math import factorial, sqrt
 
