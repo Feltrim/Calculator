@@ -4,7 +4,6 @@
 
 # Interface functions:
 
-
 def line(size=42):
     return '-' * size
 
