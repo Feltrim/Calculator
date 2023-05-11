@@ -5,6 +5,14 @@
 # Interface functions:
 
 def line(size=42):
+    """_summary_
+
+    Args:
+        size (int, optional): Defaults to 42.
+
+    Returns:
+        _type_: _Return '-'_
+    """
     return '-' * size
 
 
