@@ -17,6 +17,11 @@ def line(size=42):
 
 
 def header(txt):
+    """_summary_
+
+    Args:
+        txt (_type_): _txt = text provided to create headers_
+    """
     print(line())
     print(txt.center(42))
     print(line())
