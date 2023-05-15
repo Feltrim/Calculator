@@ -28,6 +28,14 @@ def header(txt):
 
 
 def read_int(msg):
+    """_summary_
+
+    Args:
+        msg (_type_): _msg = integer number_
+
+    Returns:
+        _type_: _if n == int, return n_
+    """
     while True:
         try:
             n = int(input(msg))
