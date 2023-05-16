@@ -50,6 +50,14 @@ def read_int(msg):
 
 
 def menu(options):
+    """_summary_
+
+    Args:
+        options (_type_): options = text provided to create a menu with options_
+
+    Returns:
+        _type_: _a menu with all the options provided during coding_
+    """
     header('Select the operation')
     c = 1
     for item in options:
