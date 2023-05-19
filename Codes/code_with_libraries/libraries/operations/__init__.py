@@ -37,6 +37,15 @@ def sub(a=0, b=0):
 
 
 def mult(a=0, b=0):
+    """_summary_
+
+    Args:
+        a (int, optional): _integer number provided by the user_. Defaults to 0.
+        b (int, optional): _another integer number provided by the user_. Defaults to 0.
+
+    Returns:
+        _type_: _calculation result_
+    """
     res = a * b
     return header(f'>>>>> \033[1;33m{a} x {b}\033[m = \033[1;34m{res}\033[m')
 
