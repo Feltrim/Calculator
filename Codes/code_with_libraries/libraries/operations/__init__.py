@@ -51,6 +51,15 @@ def mult(a=0, b=0):
 
 
 def div(a=0, b=0):
+    """_summary_
+
+    Args:
+        a (int, optional): _integer number provided by the user_. Defaults to 0.
+        b (int, optional): _another integer number provided by the user_. Defaults to 0.
+
+    Returns:
+        _type_: _calculation result_
+    """
     try:
         res = a / b
 
