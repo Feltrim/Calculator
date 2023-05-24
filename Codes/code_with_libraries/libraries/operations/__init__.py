@@ -94,6 +94,14 @@ def exp(a=0, b=0):
 
 
 def square_root(a=0):
+    """_summary_
+
+    Args:
+        a (int, optional): _integer number provided by the user_. Defaults to 0.
+
+    Returns:
+        _type_: _calculation result_
+    """
     res = sqrt(a)
     if res.is_integer():
         return header(f'>>>>> \033[1;33m√{a}\033[m = \033[1;34m{res:.0f}\033[m')
