@@ -110,5 +110,13 @@ def square_root(a=0):
 
 
 def fac(a):
+    """_summary_
+
+    Args:
+        a (int, optional): _integer number provided by the user_. Defaults to 0.
+
+    Returns:
+        _type_: _calculation result_
+    """
     res = factorial(a)
     return header(f'>>>>> \033[1;33m{a}!\033[m = \033[1;34m{res}\033[m')
